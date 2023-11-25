@@ -1,0 +1,25 @@
+#text{
+    margin: 10px 40px;
+    margin-top: 50px;
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 0.09em;
+}
+
+#div{
+    width: 100%;
+    height: 600px;
+    margin-top: auto;
+    background-image: linear-gradient(rgba(69, 68, 68, 0.322), rgba(0, 0, 0, 0.816)), url(image/contac3.png);
+    background-size: cover;
+    filter: brightness(0.6);
+}
+
+#h2{
+    margin: 10px 40px;
+    margin-top: 50px;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 0.09em;
+}
+

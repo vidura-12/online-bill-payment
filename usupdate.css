@@ -1,0 +1,114 @@
+body {
+    background-image: url('image/us.jpeg');
+    background-size: cover; /* Adjust this property as needed */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-attachment:local; /* Fix the background image */
+    filter: brightness(0.8);
+}
+
+.editprofile{
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+
+.profile-info
+{
+    margin-top: auto;
+    display:flex;
+    margin-bottom: auto;
+    align-items: center;
+}
+
+.profile-field{
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+
+.profile-value{
+    margin-top: 20px;
+}
+
+#edit {
+    background-color: #028a78;
+    color: #fff;
+    border: none;
+    padding: 7px 13px;
+    display: flex;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    overflow: hidden;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    
+}
+#delete {
+    background-color: #960c0c;
+    color: #fff;
+    border: none;
+    padding: 7px 13px;
+    display: flex;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    overflow: hidden;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.update{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#edit:hover {
+    background-color: #066259;
+    transform: scale(1.05);
+}
+
+#delete:hover {
+    background-color: #310505;
+    transform: scale(1.05);
+}
+
+  /* Style for profile info container */
+  .profile-info {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #57bbe2a4;
+  }
+
+  /* Style for profile fields */
+  .profile-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  /* Style for profile values */
+  .profile-value {
+    margin-bottom: 5px;
+  }
+
+  /* Style for input elements */
+  input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }

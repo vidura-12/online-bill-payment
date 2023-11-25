@@ -1,0 +1,105 @@
+body {
+    background-image: url('image/card2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(0.8);
+}
+
+#dvv {
+    height: 500px;
+}
+
+#payment_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    filter: brightness(0.8);
+    
+}
+
+#div {
+    margin-top: 10px;
+    width: 750px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 7.5px;
+    box-shadow: 0px 0px 10px #ccc;
+    background-color: #cccccc80;
+    padding: 60px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    backdrop-filter: blur(20px);
+}
+
+#success {
+    color: #417592;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.button1 {
+    background-color: #417592;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+.button1:hover {
+    background-color: #336675;
+    transform: scale(1.1);
+}
+
+#dv {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#dv button {
+    margin: 0 10px;
+}
+
+.payment-value {
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+#address {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.payment-field {
+    margin-bottom: 20px;
+}
+
+.payment-info {
+    padding: 20px;
+}
+
+#last-name, #username {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.profile-field1 {
+    margin-bottom: 20px;
+}
+
+#payment_container #div h1 {
+    text-align: center;
+    padding: 20px 0;
+}

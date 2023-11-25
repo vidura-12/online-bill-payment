@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styleall.css"> 
+  <link rel="stylesheet" href="sign up.css">
+  <script src="sign up.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <a href="Home.html"><img id="logo" src="image/profile/logo.png"></a> 
+    <div class="list">
+      <ul>
+        <li><a href="Home.html">Home</a></li> 
+        <li><a href="About Us.html">About</a></li> 
+        <li><a href="event.php">Dashboard</a></li> 
+        <li><a href="Bill amount.php">Billing</a></li>
+        <li><a href="Feedback.php">Feedback</a></li> 
+        <li><a href="Contac us.html">Contact Us</a></li> 
+      </ul>
+    </div>
+
+    <a href="profile.php"><img id="user" src="image/profile/userprofile.png"></a> 
+    <div class="user-buttons">
+  
+      <a href="sign in.html"><button class="signin-button">Log In</button></a>
+    
+      <a href="sign up.html"><button class="signup-button">Sign Up</button></a>
+    </div>
+    <div class="search-container">
+      <input type="text" placeholder="Search...">
+      <button type="submit">Search</button>
+    </div>
+  </nav>
+
+  <nav class="body">  
+  
+    <div id = "div"> 
+      <div class="container">
+        <h2>Registration Form</h2>
+        <form id="registrationForm" action="sign up.php" method="post">
+            <div class="form-group">
+                <input type="text" id="firstName" name="firstName" placeholder="First Name"required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="lastName" name="lastName" placeholder="Last Name"required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Email"required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="address" name="address" placeholder="Address">
+            </div>
+            <div class="form-group">
+                <input type="text" id="city" name="city" placeholder="City">
+            </div>
+            <div class="form-group">
+                <input type="text" id="userName" name="userName" required placeholder="User Name">
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" name="password" required placeholder="Password">
+            </div>
+            <div class="form-group">
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Conform Password"required>
+            </div>
+            
+            <div class="form-group">
+              <p><input type="checkbox" id="privacyPolicy" name="privacyPolicy" required> I have read and agree to the privacy policy*</p>
+            </div>
+            <div class="form-group">
+                <a href="sign in.html"><button type="submit" id="click" onclick="check()">Conform And Register</button></a>
+            </div>
+              <p id="privacy"> Have already an account?</p>
+              <a href="sign in.html"><br><button id="click2" type="button">Login here</button></a>
+        </form>
+    </div>
+      
+    </div>
+  </nav>
+
+
+  <footer>
+    <nav class="foter">
+      <div class="left">
+        <p>Follow Us</p>
+        <img src="image/footer/fb.png" alt=""> <!-- Facebook icon -->
+        <img src="image/footer/instra.png" alt=""> <!-- Instagram icon -->
+        <img src="image/footer/twitter.png" alt=""> <!-- Twitter icon -->
+        <img src="image/footer/youtube.png" alt=""> <!-- YouTube icon -->
+
+        <div><a href="notify@email.com">notify@email.com</a></div> <!-- Contact email -->
+
+      </div>
+
+      <center>
+        <div class="card">
+          <img src="image/footer/visa.png" alt=""> <!-- Visa logo -->
+          <img src="image/footer/master.png" alt=""> <!-- Mastercard logo -->
+          <img src="image/footer/american.png" alt=""> <!-- American Express logo -->
+          <img src="image/footer/discover.png" alt=""> <!-- Discover logo -->
+        </div>
+      </center>
+    </nav>
+    <div class="app">
+      <p>Download App</p>
+      <img src="image/footer/app.png" alt="">
+  </div>
+  </footer>
+  <div id="copyrights">
+
+    &copy;<span> MLB_WD_05.02_01</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,126 @@
+.editprofile{
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.profile-info
+{
+    margin-top: 20px;
+    display:flex;
+    margin-bottom: 40px;
+    
+}
+.profile-field{
+    flex-direction: row;
+    margin-left: 30px;
+
+}
+
+.profile-value{
+    margin-top: 20px;
+}
+
+
+
+#edit {
+    background-color: #028a78;
+    color: #fff;
+    border: none;
+    padding: 7px 13px;
+    display: flex;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    overflow: hidden;
+    margin-bottom: 30px;
+    
+}
+#delete {
+    background-color: #960c0c;
+    color: #fff;
+    border: none;
+    padding: 7px 13px;
+    display: flex;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.update{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#edit:hover {
+    background-color: #066259;
+    transform: scale(1.05);
+}
+
+#edit:hover {
+    background-color: #066259;
+    transform: scale(1.05);
+}
+
+#delete:hover {
+    background-color: #310505;
+    transform: scale(1.05);
+}
+
+  /* Style for profile info container */
+  .profile-info {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    background: transparent;
+    backdrop-filter:blur(20px);
+  }
+
+  /* Style for profile fields */
+  .profile-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  /* Style for profile values */
+  .profile-value {
+    margin-bottom: 5px;
+  }
+
+  /* Style for input elements */
+  input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  #month{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+#month [type="text"] {
+    width: 70px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }

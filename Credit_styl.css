@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.credit_container {
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #b8b1b1;
+    border-radius: 5px;
+    background-color: #fbf3f399; /* Adjust the alpha (fourth) value for transparency */
+    box-shadow: 0px 0px 10px #f9f7f7;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    backdrop-filter: blur(20%);
+}
+
+h2 {
+    text-align: center;
+    color: #0e0d0d;
+}
+
+label {
+    display: flex;
+    font-weight: bold;
+    color: #060606; /* Label text color */
+}
+
+.detail{ 
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 5px; /* Increase spacing between input fields */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9; /* Input field background color */
+    color: #333; /* Input text color */
+}
+
+#year{
+    width: 25%;
+    padding: 5px;
+    margin-bottom: 5px; /* Increase spacing between input fields */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9; /* Input field background color */
+    color: #333; /* Input text color */
+}
+
+#month{
+    width: 25%;
+    padding: 5px;
+    margin-bottom: 5px; /* Increase spacing between input fields */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9; /* Input field background color */
+    color: #333; /* Input text color */
+}
+
+#button {
+    background-color: #1d9797;
+    color: #fff;
+    border: none;
+    padding: 15px 25px; /* Increase padding for button */
+    border-radius: 4px;
+    cursor: pointer;
+    width: 300px;
+    transition: background-color 0.3s ease; /* Add a smooth hover transition */
+}
+
+#button:hover{
+    background-color:#1f6469;
+}
+
+body {
+    background-image: url("image/card.png");
+    filter:grayscale(0%);
+    background-size: cover; /* Adjust this property as needed */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-attachment: fixed; /* Fix the background image */
+    opacity:calc(100%);
+}
+    

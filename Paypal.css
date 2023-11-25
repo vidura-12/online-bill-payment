@@ -1,0 +1,80 @@
+.body {
+    background-image: url('image/profile/cover.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    filter: brightness(0.8);
+}
+
+
+#div{
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(245, 245, 245, 0.6); 
+    margin-top: 50px; 
+    box-shadow: 0px 0px 10px #ccc;
+    margin-top: 40px;
+    margin-bottom: 155px;
+    background: transparent;
+    backdrop-filter:blur(20px);
+}
+#font{
+    margin-top: 75px;
+    
+}
+
+#hh {
+   float: right;
+   text-decoration: none;
+    
+}
+
+#demo{
+    margin-top: 40px;
+}
+
+#div input[type="text"]
+{
+    width:300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9; /* Input field background color */
+    color: #333; /* Input text color */ 
+    margin-left: 60px;
+}
+
+#div input[type="password"]
+{
+    width:300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9; /* Input field background color */
+    color: #333; /* Input text color */ 
+    margin-left: 20px;
+}
+
+.log {
+    background-color: #43c9c9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px; /* Increase padding for button */
+    border-radius: 4px;
+    cursor: pointer;
+    width: 150px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Added transform transition */
+    text-align: center;
+    position: relative;
+    left: 300px;
+    transform: scale(1.1); /* Initial scale value */
+}
+
+.log:hover {
+    background-color: #1f6469;
+    transform: scale(1.1); /* Scale up on hover */
+}

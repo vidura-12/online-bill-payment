@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.navbar {
+    background: #a3b18a;
+    height: 130px;
+    margin: auto;
+    display: flex;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    align-items: center;
+}
+.navbar__container {
+    display: flex;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-transform: uppercase;
+    margin-left: 5px;
+
+
+}
+
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar__links {
+    color: #344e41;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    text-decoration: none;
+    height: 100%;
+    transition: all 0.3s ease;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    margin-left:10px ;
+}
+
+.navbar__links:hover {
+    color: #dad7cd;
+    scale: 105%;
+}
+
+.navbar li a{
+    letter-spacing: 0.1cm;
+
+}
+
+.search-container {
+    display: flex; /* Use flexbox for positioning */
+    height: 40px;
+    width: 500px;
+    padding: 2px; /* Add padding */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 50px; /* Add border radius */
+    background-color: #fff; /* Set background color */
+    overflow: hidden; /* Hide overflow */
+    margin-right: 500px;
+}
+
+/* Styling for search input field */
+.search-container input[type="text"] {
+    flex-grow: 1; /* Allow input to grow within container */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+    padding: 5px; /* Add padding */
+    font-size: 16px; /* Set font size */
+    z-index: 999; /* Set z-index to be above other elements */
+}
+
+/* Styling for search button */
+.search-container button[type="submit"] {
+    background-color: #19836c; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    padding: 8px 18px; /* Add padding */
+    border-radius: 50px; /* Add border radius */
+    cursor: pointer; /* Add pointer cursor */
+    overflow: hidden; /* Hide overflow */
+    z-index: 999; /* Set z-index to be above other elements */
+    transition: all 0.3s ease; /* Add transition effect */
+}
+
+/* Hover effect for search button */
+.search-container button[type="submit"]:hover {
+    background-color: #064622; /* Change background color on hover */
+}
+
+.profile
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile img
+{
+        display: flex; /* Use flexbox for positioning */
+        position: absolute; /* Position the image absolutely */
+        height: 150px; /* Set height */
+        width: 150px; /* Set width */
+        top: -10px; /* Adjust top position */
+        right: 70px; /* Adjust right position */
+        margin-left: 10px;
+        margin-right: 100px;
+}
+
+.profile a
+{
+    margin-right: 5px;
+    
+
+}
+#copyrights{
+    width: 100%;
+    height: 60px;
+    background-color: #003253;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+.foter {
+    
+    bottom: 0; /* Align to the bottom of the viewport */
+    left: 0; /* Align to the left edge of the viewport */
+    width: 100%; /* Set width to 100% */
+    background: #125a8a; /* Set background color */
+    height: 150px; /* Set height */
+    filter: brightness(0.7);
+}
+
+/* Styling for left footer section */
+.left{
+    top: 50px;
+}
+.left p {
+    color: rgb(173, 212, 238); /* Set text color */
+    font-size: 18px; /* Set font size */
+    margin-left: 140px; /* Adjust left margin */
+    font-weight: bold; /* Set font weight */
+    font-family: 'Spartan', sans-serif; /* Set font family */
+    font-size: x-large; /* Set font size */
+    letter-spacing: 0.1em; /* Adjust letter spacing */
+}
+
+/* Styling for social media icons */
+.left img {
+    width: 40px; /* Set image width */
+    height: 40px; /* Set image height */
+    margin: 0 10px; /* Add margin */
+    transition: filter 0.5s ease; /* Add filter transition */
+    margin-left: 50px; /* Adjust left margin */
+    margin-top: 20px; /* Adjust top margin */
+    transition: all 0.3s ease; /* Add transition for all properties */
+}
+
+/* Hover effect for social media icons */
+.left img:hover {
+    filter: none; /* Remove filter on hover */
+    transform: scale(1.5); /* Scale up on hover */
+}
+
+/* Styling for contact email link */
+.left a {
+    color: rgb(173, 212, 238); /* Set text color */
+    font-size: 18px; /* Set font size */
+    text-align: left; /* Left-align text */
+    margin-left: 150px; /* Adjust left margin */
+    font-weight: bold; /* Set font weight */
+    font-family: 'Spartan', sans-serif; /* Set font family */
+    font-size: large; /* Set font size */
+    margin-bottom: 80px;
+}
+
+/* Styling for payment card icons */
+.card img {
+    justify-content: center; /* Center-align images */
+    align-items: center; /* Align items to the center */
+    width: 50px; /* Set image width */
+    height: 50px; /* Set image height */
+    margin: 0 20px; /* Add margin */
+    transition: all 0.3s ease; /* Add transition for all properties */
+    margin-top: -30px; /* Adjust top margin */
+    z-index: 1509; /* Set z-index */
+}
+
+/* Hover effect for payment card icons */
+.card img:hover {
+    filter: none; /* Remove filter on hover */
+    transform: scale(1.5); /* Scale up on hover */
+}
+.app{
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: -150px;
+}
+.app p{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.app img{
+    max-width: 135px;
+    cursor: pointer;
+}

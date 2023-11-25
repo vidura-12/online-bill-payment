@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Global styles */
+* {
+    box-sizing: border-box; /* Box sizing model for consistent sizing */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: "Poppins", sans-serif; /* Set the default font to Poppins */
+    scroll-behavior: smooth; /* Smooth scrolling behavior for anchor links */
+}
+.hi {
+    background-image: url('image/profile/back.jpg');
+    background-size: cover; /* Adjust this property as needed */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-attachment:local; /* Fix the background image */
+    filter: brightness(0.8);
+}
+form.container {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.589); /* Add background color */
+    transition: transform 0.3s ease; /* Add a transition effect */
+    background: transparent;
+    backdrop-filter:blur(20px);
+}
+
+img#pPic {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+
+.welcome {
+    background-color: rgba(36, 36, 36, 0.842);
+    padding: 18px;
+    position: relative;
+    width: 100%;
+    font-family: Monospace;
+    margin-bottom: 60px;
+    display: flex;
+    letter-spacing: 0.09em;
+}
+
+.infop {
+    display: flex;
+}
+
+#details {
+    margin-top: 60px;
+    margin-right: 500px;
+    font-family: cursive;
+    font-size: larger;
+}
+
+#logout {
+    background-color: #028a78;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    display: flex;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    overflow: hidden;
+    margin-left: 800px;
+    margin-top: -100px;
+}
+
+h2{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+/* Style the logout button on hover */
+#logout:hover {
+    background-color: #066259;
+    transform: scale(1.05);
+}
+
+/* Add styles for the link in the profile details */
+#details a {
+    text-decoration: none;
+    color: #0078d4;
+}
+
+#details a:hover {
+    text-decoration: underline;
+}
+
+/* Style the background of the form */
+.container {
+    background-color: #f0f0f0;
+}
+
+.profile-info
+{
+    margin-top: 20px;
+    display:flex;
+    margin-bottom: 40px;
+}
+
+.profile-field{
+    flex-direction: row;
+    margin-left: 100px;
+}
+
+.profile-field1{
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.profile-value{
+    margin-top: 20px;
+    font-size: larger;
+}
+
+.horizontal-line {
+    border: none; /* Remove the default line */
+    height: 2px; /* Set the height of the line */
+    background-color: #333; /* Change the color of the line */
+    margin: 10px 0; /* Adjust the margin as needed */
+    
+}
+
+#edit {
+    background-color: #028a78;
+    color: #fff;
+    border: none;
+    padding: 7px 13px;
+    display: flex;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    overflow: hidden;
+    margin-left: 90px;
+    margin-bottom: 30px;
+}
+#delete {
+    background-color: #960c0c;
+    color: #fff;
+    border: none;
+    padding: 7px 13px;
+    display: flex;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    overflow: hidden;
+    margin-left: 90px;
+    margin-bottom: 30px;
+}
+
+#card{
+    background-color: #028a78;
+    color: #fff;
+    border: none;
+    padding: 7px 13px;
+    display: flex;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    overflow: hidden;
+    margin-left: 90px;
+    margin-bottom: 30px;
+
+}
+
+.update{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#edit:hover {
+    background-color: #066259;
+    transform: scale(1.05);
+}
+
+#delete:hover {
+    background-color: #310505;
+    transform: scale(1.05);
+}
+
+#details{
+    font-size:x-large;
+    margin-left: 60px;
+    margin-top: 40px;
+}

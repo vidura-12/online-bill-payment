@@ -1,0 +1,122 @@
+
+body{
+  background-color: rgb(27, 146, 167);
+  background: #bdd3e2;
+}
+
+
+
+
+.addevent {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f92f;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-weight: bold;
+  
+}
+
+.addevent input[type="text"],
+.addevent textarea,
+.addevent input[type="date"] {
+  width: 97%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.addevent textarea {
+  resize: vertical; 
+}
+
+.addevent input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.addevent input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+.event-details {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-style: italic;
+  font-weight: bold;
+
+}
+
+.event-details input[type="text"],
+.event-details textarea,
+.event-details input[type="date"] {
+  width: 98%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.event-details input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #306ce6;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.event-details input[type="submit"]:hover {
+  background-color: #031d70;
+}
+
+
+.event-details {
+  background-color: #f0f0f04d;
+  padding: 20px;
+  margin: 50px;
+}
+
+
+h1{
+  color: #0e0e0d;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none; /* Add this line to remove underline */
+  
+}
+
+.button:hover {
+  background-color: #45a049; 
+}
+
+
+
+

@@ -1,0 +1,46 @@
+body{
+    background-image: url(image/feedbackk.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+#comment{
+    width: 700px;
+    height: 300px;
+    left: 20px;
+    position: relative;
+    top: 30px;
+}
+#cmnt{
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+}
+#div{
+    padding: 50px;
+}
+.rating{
+    position: relative;
+    top: 60px;
+    font-size: 20px;
+}
+#input{
+    position: relative;
+    top: 80px;
+    font-size: 20px;
+    left: 540px;
+}
+#comment2{
+    width: 700px;
+    height: 300px;
+    left: 800px;
+    position: relative;
+    bottom: 340px;
+   
+}
+#cmnt2{
+    position: relative;
+    bottom: 660px;
+    left: 900px;
+    font-size: 20px;
+}

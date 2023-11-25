@@ -1,0 +1,297 @@
+/* Importing the Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Global styles */
+* {
+    box-sizing: border-box; /* Box sizing model for consistent sizing */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: "Poppins", sans-serif; /* Set the default font to Poppins */
+    scroll-behavior: smooth; /* Smooth scrolling behavior for anchor links */
+}
+
+/* Styling for user profile image */
+#user {
+    display: flex; /* Use flexbox for positioning */
+    position: absolute; /* Position the image absolutely */
+    margin-left: auto; /* Auto margin for horizontal centering */
+    height: 150px; /* Set height */
+    width: 150px; /* Set width */
+    top: -10px; /* Adjust top position */
+    right: 70px; /* Adjust right position */
+}
+
+/* Styling for logo image */
+#logo {
+    position: absolute; /* Position the image absolutely */
+    margin-right: auto; /* Auto margin for horizontal centering */
+    height: 200px; /* Set height */
+    width: 200px; /* Set width */
+    left: 5px; /* Adjust left position */
+    top: -10px; /* Adjust top position */
+}
+
+/* Navbar styles */
+.navbar {
+    background: #bdd3e2; /* Set background color */
+    height: 150px; /* Set height */
+    filter: brightness(0.9);
+}
+
+/* Navigation list styles */
+.list {
+    display: flex; /* Use flexbox for positioning */
+    justify-content: center; /* Center-align navigation items */
+    align-items: baseline; /* Align items to the baseline */
+    font-size: 1.2rem; /* Set font size */
+    top: 0; /* Reset top position */
+    position: relative; /* Position the list relatively */
+    top: 30px; /* Adjust top position */
+}
+
+.list ul {
+    display: flex; /* Use flexbox for positioning */
+    align-items: center; /* Align items to the center */
+    list-style: none; /* Remove list bullet points */
+    margin-right: 10px; /* Add right margin */
+}
+
+.list li {
+    height: 80px; /* Set list item height */
+    margin-right: 30px; /* Add right margin between list items */
+}
+
+.list a {
+    color: #35617a; /* Set text color */
+    display: flex; /* Use flexbox for positioning */
+    align-items: baseline; /* Align items to the baseline */
+    justify-content: center; /* Center-align text */
+    width: 155px; /* Set a fixed width for each navigation item */
+    text-decoration: none; /* Remove underline */
+    height: 100%; /* Set height */
+    transition: all 0.3s ease; /* Add transition effect */
+    letter-spacing: 0.1em; /* Adjust letter spacing */
+    font-weight: 600; /* Set font weight */
+}
+
+/* Hover effect for navigation links */
+.list a:hover {
+    color: #0e3a42; /* Change text color on hover */
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+/* Styling for search bar container */
+.search-container {
+    display: flex; /* Use flexbox for positioning */
+    align-items: center; /* Align items to the center */
+    justify-content: end; /* Align content to the end */
+    max-width: 700px; /* Set a maximum width */
+    margin: auto; /* Center-align the container */
+    padding: 2px; /* Add padding */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 50px; /* Add border radius */
+    background-color: #fff; /* Set background color */
+    overflow: hidden; /* Hide overflow */
+    z-index: 999; /* Set z-index to be above other elements */
+}
+
+/* Styling for search input field */
+.search-container input[type="text"] {
+    flex-grow: 1; /* Allow input to grow within container */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+    padding: 5px; /* Add padding */
+    font-size: 16px; /* Set font size */
+    z-index: 999; /* Set z-index to be above other elements */
+}
+
+/* Styling for search button */
+.search-container button[type="submit"] {
+    background-color: #9eb2be; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    padding: 8px 18px; /* Add padding */
+    border-radius: 50px; /* Add border radius */
+    cursor: pointer; /* Add pointer cursor */
+    overflow: hidden; /* Hide overflow */
+    z-index: 999; /* Set z-index to be above other elements */
+    transition: all 0.3s ease; /* Add transition effect */
+}
+
+/* Hover effect for search button */
+.search-container button[type="submit"]:hover {
+    background-color: #35617a; /* Change background color on hover */
+}
+
+/* Styling for user buttons */
+.user-buttons {
+    display: inline-flex; /* Use inline flexbox for positioning */
+    flex-direction: row; /* Arrange buttons in a row */
+    align-items: center; /* Align items to the center */
+    position: absolute; /* Position the buttons absolutely */
+    top: 110px; /* Adjust top position */
+    right: 50px; /* Adjust right position */
+    font-family: "Poppins", sans-serif; /* Set font family */
+}
+
+/* Styling for sign-in button */
+.signin-button {
+    background-color: #c4bcbc; /* Set background color */
+    color: #ffffff; /* Set text color */
+    border: none; /* Remove border */
+    padding: 4px 8px; /* Add padding */
+    border-radius: 50px; /* Add border radius */
+    cursor: pointer; /* Add pointer cursor */
+    margin: 5px 10px; /* Add margin */
+    text-align: center; /* Center-align text */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Set font size */
+    font-family: "Poppins", sans-serif; /* Set font family */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Add transitions */
+    overflow: hidden; /* Hide overflow */
+    z-index: 1509; /* Set z-index */
+}
+
+/* Styling for sign-up button */
+.signup-button {
+    background-color: #417592; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    padding: 4px 8px; /* Add padding */
+    border-radius: 50px; /* Add border radius */
+    cursor: pointer; /* Add pointer cursor */
+    margin: 5px 10px; /* Add margin */
+    text-align: center; /* Center-align text */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Set font size */
+    font-family: "Poppins", sans-serif; /* Set font family */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Add transitions */
+    overflow: hidden; /* Hide overflow */
+    z-index: 1509; /* Set z-index */
+}
+
+/* Hover effect for sign-in and sign-up buttons */
+.signin-button:hover,
+.signup-button:hover {
+    background-color: #3c718d; /* Change background color on hover */
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Box shadow for sign-in and sign-up buttons */
+.signin-button,
+.signup-button {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+/* Hover box shadow for sign-in and sign-up buttons */
+.signin-button:hover,
+.signup-button:hover {
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* Add box shadow on hover */
+}
+
+/* Body styles */
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children in a column */
+    min-height: 100vh; /* Minimum height of the viewport */
+    background-size: cover; /* Cover background image */
+    background-color: #d9e4eb; /* Set background color */
+}
+
+/* Footer styles */
+.foter {
+    
+    bottom: 0; /* Align to the bottom of the viewport */
+    left: 0; /* Align to the left edge of the viewport */
+    width: 100%; /* Set width to 100% */
+    background: #125a8a; /* Set background color */
+    height: 150px; /* Set height */
+    filter: brightness(0.7);
+}
+
+/* Styling for left footer section */
+.left{
+    top: 50px;
+}
+.left p {
+    color: rgb(173, 212, 238); /* Set text color */
+    font-size: 18px; /* Set font size */
+    margin-left: 140px; /* Adjust left margin */
+    font-weight: bold; /* Set font weight */
+    font-family: 'Spartan', sans-serif; /* Set font family */
+    font-size: x-large; /* Set font size */
+    letter-spacing: 0.1em; /* Adjust letter spacing */
+}
+
+/* Styling for social media icons */
+.left img {
+    width: 40px; /* Set image width */
+    height: 40px; /* Set image height */
+    margin: 0 10px; /* Add margin */
+    transition: filter 0.5s ease; /* Add filter transition */
+    margin-left: 50px; /* Adjust left margin */
+    margin-top: 20px; /* Adjust top margin */
+    transition: all 0.3s ease; /* Add transition for all properties */
+}
+
+/* Hover effect for social media icons */
+.left img:hover {
+    filter: none; /* Remove filter on hover */
+    transform: scale(1.5); /* Scale up on hover */
+}
+
+/* Styling for contact email link */
+.left a {
+    color: rgb(173, 212, 238); /* Set text color */
+    font-size: 18px; /* Set font size */
+    text-align: left; /* Left-align text */
+    margin-left: 150px; /* Adjust left margin */
+    font-weight: bold; /* Set font weight */
+    font-family: 'Spartan', sans-serif; /* Set font family */
+    font-size: large; /* Set font size */
+    margin-bottom: 80px;
+}
+
+/* Styling for payment card icons */
+.card img {
+    justify-content: center; /* Center-align images */
+    align-items: center; /* Align items to the center */
+    width: 50px; /* Set image width */
+    height: 50px; /* Set image height */
+    margin: 0 20px; /* Add margin */
+    transition: all 0.3s ease; /* Add transition for all properties */
+    margin-top: -30px; /* Adjust top margin */
+    z-index: 1509; /* Set z-index */
+}
+
+/* Hover effect for payment card icons */
+.card img:hover {
+    filter: none; /* Remove filter on hover */
+    transform: scale(1.5); /* Scale up on hover */
+}
+.app{
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: -150px;
+}
+.app p{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.app img{
+    max-width: 135px;
+    cursor: pointer;
+}
+
+#copyrights{
+    width: 100%;
+    height: 60px;
+    background-color: #003253;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}

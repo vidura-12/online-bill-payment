@@ -1,0 +1,21 @@
+body {
+    background-image: url('image/aboutt2.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    filter: brightness(0.8);
+}
+
+#h2{
+    color: aliceblue;
+}
+#h1{
+    color: rgb(175, 241, 227);
+}
+.div{
+    padding: 50px;
+}
+#paragraph{
+
+    font-size: 20px;
+}
