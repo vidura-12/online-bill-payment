@@ -130,7 +130,7 @@ The following members of **MLB_05.2_01** contributed to the development of **Not
 
 | Contributor          | GitHub Profile                                        | Roles                           |
 |----------------------|-------------------------------------------------------|----------------------------------|
-| **Vidura**           | [vidura-12](https://github.com/vidura-12)             | Project Owner, Lead Developer    |
+| **Vidura**           | [vidura-12](https://github.com/vidura-12)             |Lead Developer    |
 | **Nimesha**           | [Nimesha](https://github.com/Nimesha4)                | Frontend Developer, UI/UX|
 | **Dilshani**          | [Dilshani](https://github.com/Dilshani16)            | Backend Developer      ,QA Engineer, Testing         |
 
