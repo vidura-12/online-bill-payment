@@ -1,4 +1,4 @@
-```md
+
 # NotiFY - Online Bill Payment and Event Reminder
 
 ## Project Overview
