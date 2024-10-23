@@ -1,5 +1,3 @@
-Here’s a sample `README.md` file for your "NotiFY" project:
-
 ```md
 # NotiFY - Online Bill Payment and Event Reminder
 
